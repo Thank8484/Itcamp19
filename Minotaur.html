@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-wraper">
+                <div class="logo">
+                    <h2>Mystery animal </h2>
+                    <h3>Dictionary</h3>
+                </div>
+                <ul class="menu" id="myMenu">
+                    <li><a href="Pegasus.html">Pegasus</a></li>
+                    <li><a href="Unicorn.html">Unicorn</a></li>
+                    <li><a href="Minotaur.html">Minotaur</a></li>
+                    <li><a href="Cerberus.html">Cerberus</a></li>
+                </ul>
+                <div class="ham-menu" onclick="toggleHam(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="name">
+                <h1>Minotaur</h1>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlide">
+                    <img src="https://static.tvtropes.org/pmwiki/pub/images/minotaur_dd.png" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://i0.wp.com/damiansart.com/wp-content/uploads/2022/10/Minotaur-promo-image-1.jpg?fit=1417%2C1985&ssl=1" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://i.pinimg.com/originals/9d/c1/a8/9dc1a87d82c575d5f5c65cbfd1476f9f.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <p class="content">
+                ในเทพปกรณัมกรีก มินะทอร์ (อังกฤษ: Minotaur) เป็นสิ่งมีชีวิตซึ่งมีศีรษะเป็นโค มีกายเป็นคน[1] หรือที่โอวิด (Ovid) กวีโรมัน พรรณนาว่า "กึ่งคนกึ่งโค"[2] มินะทอร์พำนักอยู่ในวงกตซึ่งเป็นหมู่อาคารมีทางเดินคดเคี้ยว ณ กลางเกาะครีต[3] และเป็นผลงานที่สถาปนิกเดดาลัส (Daedalus) กับอีคารัส (Icarus) บุตร ร่วมกันสร้างสรรค์ขึ้นตามพระราชโองการพระเจ้าไมนอส (Minos) แห่งเกาะครีต ภายหลัง มินะทอร์ถูกธีเซียส (Theseus) วีรบุรุษชาวเอเธนส์ ประหารในวงกตนั้นเอง
+คำ "มินะทอร์" ในภาษาอังกฤษมาจากคำ "Μῑνώταυρος" (Mīnṓtauros,) ในภาษากรีกโบราณ แปลว่า โคแห่งพระเจ้าไมนอส โดยในภาษาอังกฤษนั้น คำ "มินะทอร์" เป็นทั้งวิสามานยนามใช้เรียกสิ่งมีชีวิตตามตำนานข้างต้น และเป็นสามานยนามใช้เรียกสิ่งมีชีวิตกึ่งโคกึ่งคนตัวอื่น ๆ โดยทั่วไป ส่วนชาวครีตเองเรียกสัตว์นี้ด้วยวิสามานยนามว่า "แอสเตเรียน (Asterion)[4] ซึ่งเป็นนามของปู่มินะทอร์ (พระบิดาบุญธรรมของพระเจ้าไมนอส)
+            </p>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="showModal" class="btn">จัดทำโดย ญาณพัฒน์ หวังทรัพย์ทวี</button>
+        <div class="popup" id="popup">
+            <img src="https://cdn.discordapp.com/attachments/910708226163605554/1099701905791389737/v456azed.png" alt="">
+            <h2>ญาณพัฒน์ หวังทรัพย์ทวี
+                (แต๊งค์)</h2>
+            <p>เรียนที่ สาธิตประสานมิตร มหาวิทยลัยศรีนครินทรวิโรฒ ชั้นมัธยมศึกษา 4</p>
+            <button type="button" id="closeModal" >OK</button>
+        </div>
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>

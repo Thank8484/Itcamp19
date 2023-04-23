@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-wraper">
+                <div class="logo">
+                    <h2>Mystery animal </h2>
+                    <h3>Dictionary</h3>
+                </div>
+                <ul class="menu" id="myMenu">
+                    <li><a href="Pegasus.html">Pegasus</a></li>
+                    <li><a href="Unicorn.html">Unicorn</a></li>
+                    <li><a href="Minotaur.html">Minotaur</a></li>
+                    <li><a href="Cerberus.html">Cerberus</a></li>
+                </ul>
+                <div class="ham-menu" onclick="toggleHam(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="name">
+                <h1>Unicorn</h1>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlide">
+                    <img src="https://cdn.discordapp.com/attachments/1031466124912631838/1099687420506681396/633333-img-1347976754-1.jpg" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://cdn.discordapp.com/attachments/1031466124912631838/1099687420724793464/13725116.jpg" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://2.bp.blogspot.com/-29a7ET2trrw/UEISZe2ueYI/AAAAAAAAACU/ITKXFV0JZrs/s1600/y3.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <p class="content">
+                ยูนิคอร์น (อังกฤษ: unicorn) เป็นสัตว์ในตำนานซึ่งมีการอธิบายมาแต่โบราณว่าเป็นสัตว์ที่มีเขาเกลียวแหลมขนาดใหญ่ออกมาจากหน้าผาก มีการพรรณนายูนิคอร์นในตราโบราณของอารยธรรมลุ่มแม่น้ำสินธุและชาวกรีกโบราณกล่าวถึงยูนิคอร์นในบันทึกประวัติศาสตร์ธรรมชาติโดยนักเขียนหลายคน รวมไปถึงคัมภีร์ไบเบิลฉบับพระเจ้าเจมส์ก็มีอธิบายเช่นกัน
+ในนิทานพื้นบ้านยุโรป มักพรรณนายูนิคอร์นว่าเป็นสัตว์คล้ายม้าหรือคล้ายแพะสีขาว มีเขายาวและมีกีบแยก (บ้างมีเคราแพะด้วย) ในสมัยกลางและฟื้นฟูศิลปวิทยา มีการอธิบายทั่วไปว่า ยูนิคอร์นเป็นสัตว์ป่าหายากยิ่ง สัญลักษณ์แห่งความบริสุทธิ์และสง่างาม ซึ่งอาจจับได้เฉพาะพรหมจารีเท่านั้น ในสารานุกรมกล่าวกันว่าเขาของยูนิคอร์นมีอำนาจเปลี่ยนน้ำพิษให้ดื่มได้ และรักษาการเจ็บป่วย ในสมัยนั้นบางครั้งมีการขายเขานาร์วาลเป็นเขายูนิคอร์น
+            </p>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="showModal" class="btn">จัดทำโดย ญาณพัฒน์ หวังทรัพย์ทวี</button>
+        <div class="popup" id="popup">
+            <img src="https://cdn.discordapp.com/attachments/910708226163605554/1099701905791389737/v456azed.png" alt="">
+            <h2>ญาณพัฒน์ หวังทรัพย์ทวี
+                (แต๊งค์)</h2>
+            <p>เรียนที่ สาธิตประสานมิตร มหาวิทยลัยศรีนครินทรวิโรฒ ชั้นมัธยมศึกษา 4</p>
+            <button type="button" id="closeModal" >OK</button>
+        </div>
+    </footer>
+<script src="app.js"></script>    
+</body>
+</html>

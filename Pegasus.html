@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-wraper">
+                <div class="logo">
+                    <h2>Mystery animal </h2>
+                    <h3>Dictionary</h3>
+                </div>
+                <ul class="menu" id="myMenu">
+                    <li><a href="Pegasus.html">Pegasus</a></li>
+                    <li><a href="Unicorn.html">Unicorn</a></li>
+                    <li><a href="Minotaur.html">Minotaur</a></li>
+                    <li><a href="Cerberus.html">Cerberus</a></li>
+                </ul>
+                <div class="ham-menu" onclick="toggleHam(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="name">
+                <h1>Pegasus</h1>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlide">
+                    <img src="https://cdn.discordapp.com/attachments/1031466124912631838/1099617551379615835/The-Winged-Horse.jpg" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://cdn.discordapp.com/attachments/1031466124912631838/1099617551136329778/pegasus.jpg" alt="">
+                </div>
+                <div class="mySlide">
+                    <img src="https://cdn.discordapp.com/attachments/1031466124912631838/1099617550947590174/images.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <p class="content">
+                เพกาซัส (อังกฤษ: Pegasus; กรีก: Πήγασος; เปกาซอส หมายถึง "แข็งแรง") เป็นสัตว์ในเทพปกรณัมกรีก เป็นม้าเพศผู้รูปร่างกำยำพ่วงพีสีขาวบริสุทธิ์ และมีปีกอันกว้างสง่างามเหมือนนกพิราบ
+เพกาซัสเกิดมาจากนางกอร์กอน เมดูซ่า ซึ่งถูกวีรบุรุษเพอร์ซิอุสฟันคอ ในขณะที่เลือดจากลำคอพุ่งกระเซ็นนั้น เพกาซัสก็กระโจนออกมาจากลำคอของนาง เพกาซัสเป็นพี่ของคริสซาออร์ ซึ่งก็เกิดมาหลังจากนั้น ไม่มีใครสามารถปราบเพกาซัสได้เลย ตอนที่เพกาซัสเกิดมาใหม่ ๆ และออกวิ่งอย่างคึกคะนองนั้น น้ำที่กระเซ็นจากรอยเท้าที่เพกาซัสวิ่งก่อให้เกิดน้ำพุสวยงามที่เหล่ากวีและศิลปินชื่นชมกันนักหนา คือ น้ำพุฮิปโปครีนี ที่เป็นที่รู้จักในวรรณคดีกรีกโบราณ ว่ากันว่า หากใครได้ดื่มน้ำพุนี้แล้ว โอกาสที่จะเป็นกวีเอกอยู่แค่เอื้อม นอกจากนี้แล้วเพกาซัสยังทำหน้าที่คอยเก็บสายฟ้าให้ซุส
+เพกาซัสโดนปราบโดยเด็กหนุ่มรูปงามชาวเมืองโครินทร์ คือ เบลเลอโรฟอน เบลเลอโรฟอนเป็นโอรสของกษัตริย์เมืองโครินท์ คือ กลอคุส ซึ่งต่อมาเบลเลอโรฟอนได้ขี่เพกาซัสปราบสัตว์ประหลาดร้ายไคเมร่า
+            </p>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="showModal" class="btn">จัดทำโดย ญาณพัฒน์ หวังทรัพย์ทวี</button>
+        <div class="popup" id="popup">
+            <img src="https://cdn.discordapp.com/attachments/910708226163605554/1099701905791389737/v456azed.png" alt="">
+            <h2>ญาณพัฒน์ หวังทรัพย์ทวี
+                (แต๊งค์)</h2>
+            <p>เรียนที่ สาธิตประสานมิตร มหาวิทยลัยศรีนครินทรวิโรฒ ชั้นมัธยมศึกษา 4</p>
+            <button type="button" id="closeModal" >OK</button>
+        </div>
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
